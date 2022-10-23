@@ -1,5 +1,5 @@
-import { Character, CharacterComponents } from "character/character"
-import { CharacterType } from "character/characterType"
+import { Character, CharacterComponents } from "../character"
+import { CharacterType } from "../characterType"
 import {v4 as uuidv4} from 'uuid';
 
 export class DnD5eCharacter implements Character {
