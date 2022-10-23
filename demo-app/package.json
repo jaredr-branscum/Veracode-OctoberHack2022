@@ -1,12 +1,8 @@
 {
-  "name": "microrpg",
+  "name": "demoapp",
   "version": "0.0.0",
-  "description": "Library of reusable components for building RPGs",
-  "typings": "dist/index.d.ts",
-  "main": "dist/index.js",
-  "files": [
-    "/dist"
-  ],
+  "description": "Demo App",
+  "main": "dist/demo.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +13,6 @@
   "author": "Jared Branscum",
   "license": "MIT",
   "devDependencies": {
-    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
     "eslint": "^8.25.0",
@@ -29,6 +24,5 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "uuid": "^9.0.0"
   }
 }
