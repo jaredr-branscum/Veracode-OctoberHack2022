@@ -54,6 +54,11 @@ After identifying critical components of DnD 5e, assess potential use-cases for 
     - turn-order
   - real-time (out-of-scope)
 
+## Results
+
+- Scope was too large to implement a robust demo web app along with developing a RESTful backend service
+- Implementing character creation was determined to require more time than anticipated
+
 ## Links
 [Tooling Documentation](Tooling.md)
 
